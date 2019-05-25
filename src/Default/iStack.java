@@ -1,4 +1,10 @@
 /**
+ * Author: Tyson Pham
+ * Class: COMP 352 Data Structure and Algorithm
+ */
+package Default;
+
+/**
  * Author:Tyson Pham
  *
  * @param <T>
@@ -38,4 +44,11 @@ public interface iStack<T> {
      * @return element removed (or null if empty)
      */
     T pop();
+
+    /**
+     *Prints out whats in the stack
+     * @return a string
+     */
+    void show();
+
 }
